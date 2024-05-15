@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div id="home" className="section"><Header id="home" /></div>  // 
+      <div id="home" className="section"><Header id="home" /></div>   
       <div id="projects" className="section"><Projects id="projects" /></div>
       <div id="skills" className="section"><Skills id="skills" /></div>
       <div id="contact" className="section"><Contact id="contact" /></div>

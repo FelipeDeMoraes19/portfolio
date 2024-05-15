@@ -4,22 +4,20 @@
   justify-content: center;
   align-items: center;
   height: 100vh; 
-  color: #fff;
-  background-color: #222; 
-  padding: 20px;
+  background-color: #121212; 
+  color: #ffffff;
   text-align: center;
+  padding: 40px 20px; 
 }
 
 .header h1 {
-  font-size: 3rem;
-  margin-bottom: 0.5em;
+  font-size: 4rem; 
+  font-weight: bold; 
+  margin: 0 0 20px 0; 
 }
 
 .header p {
-  font-size: 1.2rem;
-  max-width: 600px; 
-}
-
-.header button:hover {
-  background-color: #367c39; 
+  font-size: 1.4rem; 
+  max-width: 640px; 
+  line-height: 1.6; 
 }
