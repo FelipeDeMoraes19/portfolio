@@ -18,10 +18,18 @@ const projectsData = [
   },
     {
     name: "SpringBoot-jpa",
+    description: "HashzapChatApp is a Python chat app using Flet for UI. Join rooms, send, and view messages. Modular and great for complex chat projects or as a Flet example app.",
+    repoUrl: "https://github.com/FelipeDeMoraes19/HashzapChatApp",
+    technologies: ["Java"],
+  },
+
+  {
+    name: "HashzapChatApp",
     description: "This Java project leverages the power of Spring Boot combined with Java Persistence API (JPA) to create a robust backend application.",
     repoUrl: "https://github.com/FelipeDeMoraes19/project-springboot-jpa",
     technologies: ["Java"],
   },
+
 ];
 
 function Projects({ id }: { id: string }) {
