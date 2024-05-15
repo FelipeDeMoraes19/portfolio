@@ -1,0 +1,14 @@
+.projects {
+    padding: 15px;
+    background-color: #1a1a1a; 
+}
+
+.project {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 5px solid #4caf50; 
+}
+
+.project h3 {
+    margin-top: 0;
+}

@@ -1,0 +1,13 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #1a1a1a;
+}
+
+.skill {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 48%;
+}

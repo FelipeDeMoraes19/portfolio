@@ -1,0 +1,9 @@
+.contact {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+}
+
+.contact p {
+    margin: 5px 0;
+}
