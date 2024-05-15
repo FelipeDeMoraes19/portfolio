@@ -1,12 +1,18 @@
 import React from 'react';
+import './Skills.css';
 
-function Skills() {
-  return (
-    <section className="Skills">
-      <h2>Habilidades</h2>
-      <p>HTML, CSS, JavaScript, React, TypeScript, MySQL, Java, Python, Figma</p>
-    </section>
-  );
+interface SkillsProps {
+  id: string;
+}
+
+function Skills({ id }: SkillsProps) {
+    return (
+        <section id={id} className="skills">
+            <h2>Habilidades</h2>
+            <div className="skill">HTML, CSS, JavaScript</div>
+            <div className="skill">React, TypeScript</div>
+        </section>
+    );
 }
 
 export default Skills;
