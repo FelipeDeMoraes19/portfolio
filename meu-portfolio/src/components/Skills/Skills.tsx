@@ -1,7 +1,10 @@
 import React from 'react';
 import './Skills.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJava, faPython, faReact, faHtml5, faCss3Alt, faJsSquare } from '@fortawesome/free-brands-svg-icons';
+import { faJava, faPython, faReact, faHtml5, faCss3Alt, faJsSquare} from '@fortawesome/free-brands-svg-icons';
+import { faFigma } from '@fortawesome/free-brands-svg-icons'; 
+import { faDatabase } from '@fortawesome/free-solid-svg-icons'; 
+
 
 interface SkillsProps {
   id: string;
@@ -35,6 +38,17 @@ function Skills({ id }: SkillsProps) {
         <FontAwesomeIcon icon={faJsSquare} size="2x" />
         <span>JavaScript</span>
       </div>
+
+      <div className="skill">
+        <FontAwesomeIcon icon={faDatabase} size="2x" />
+        <span>MySQL</span>
+      </div>
+
+      <div className="skill">
+        <FontAwesomeIcon icon={faFigma} size="2x" />
+        <span>Figma</span>
+      </div>
+
     </section>
   );
 }
