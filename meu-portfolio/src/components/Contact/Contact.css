@@ -2,8 +2,24 @@
     text-align: center;
     padding: 20px;
     background-color: #222;
-}
-
-.contact p {
-    margin: 5px 0;
-}
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .contact-links a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px; 
+  }
+  
+  .contact-links a:hover {
+    color: #4caf50;
+  }
+  
