@@ -2,7 +2,7 @@
 
 Este repositório contém os arquivos e recursos para o meu portfólio pessoal. O site apresenta minha experiência, habilidades e projetos anteriores, destacando minha especialização como Cientista de Dados.
 
-![Meu port](https://github.com/FelipeDeMoraes19/portfolio/assets/133254329/be3f21b3-2618-4ddf-acfa-6df47a214b27)
+![HomePage](https://github.com/FelipeDeMoraes19/portfolio/assets/133254329/5fde473a-e848-4ecf-9c63-578d950e0236)
 
 ## Visão Geral
 
