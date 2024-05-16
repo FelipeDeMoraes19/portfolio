@@ -1,54 +1,62 @@
 import React from 'react';
 import './Skills.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJava, faPython, faReact, faHtml5, faCss3Alt, faJsSquare} from '@fortawesome/free-brands-svg-icons';
-import { faFigma } from '@fortawesome/free-brands-svg-icons'; 
-import { faDatabase } from '@fortawesome/free-solid-svg-icons'; 
+import {
+  faHtml5, faCss3Alt, faJsSquare, faReact, faNodeJs, faJava,
+  faPython, faGithub, faGit, faFigma
+} from '@fortawesome/free-brands-svg-icons';
 
+interface Skill {
+  icon: any; 
+  name: string;
+}
 
 interface SkillsProps {
   id: string;
 }
 
-function Skills({ id }: SkillsProps) {
+const Skills = ({ id }: SkillsProps) => {
+  const frontEndSkills: Skill[] = [
+    { icon: faHtml5, name: "HTML5" },
+    { icon: faCss3Alt, name: "CSS3" },
+    { icon: faJsSquare, name: "JavaScript" },
+    { icon: faReact, name: "React" },
+    { icon: faFigma, name: "Figma" }
+  ];
+
+  const backEndSkills: Skill[] = [
+    { icon: faNodeJs, name: "Node.js" },
+    { icon: faJava, name: "Java" },
+    { icon: faPython, name: "Python" },
+    { icon: faGithub, name: "GitHub" },
+    { icon: faGit, name: "Git" }
+  ];
+
   return (
     <section id={id} className="skills">
       <h2>Habilidades</h2>
-      <div className="skill">
-        <FontAwesomeIcon icon={faJava} size="2x" />
-        <span>Java</span>
+      <div className="skill-category">
+        <h3>Front-End</h3>
+        <div className="skill-set">
+          {frontEndSkills.map((skill, index) => (
+            <div key={index} className="skill">
+              <FontAwesomeIcon icon={skill.icon} size="2x" />
+              <span>{skill.name}</span>
+            </div>
+          ))}
+        </div>
       </div>
-      <div className="skill">
-        <FontAwesomeIcon icon={faPython} size="2x" />
-        <span>Python</span>
+      <div className="skill-category">
+        <h3>Back-End</h3>
+        <div className="skill-set">
+          {backEndSkills.map((skill, index) => (
+            <div key={index} className="skill">
+              <FontAwesomeIcon icon={skill.icon} size="2x" />
+              <span>{skill.name}</span>
+            </div>
+          ))}
+        </div>
       </div>
-      <div className="skill">
-        <FontAwesomeIcon icon={faReact} size="2x" />
-        <span>React</span>
-      </div>
-      <div className="skill">
-        <FontAwesomeIcon icon={faHtml5} size="2x" />
-        <span>HTML5</span>
-      </div>
-      <div className="skill">
-        <FontAwesomeIcon icon={faCss3Alt} size="2x" />
-        <span>CSS3</span>
-      </div>
-      <div className="skill">
-        <FontAwesomeIcon icon={faJsSquare} size="2x" />
-        <span>JavaScript</span>
-      </div>
-
-      <div className="skill">
-        <FontAwesomeIcon icon={faDatabase} size="2x" />
-        <span>MySQL</span>
-      </div>
-
-      <div className="skill">
-        <FontAwesomeIcon icon={faFigma} size="2x" />
-        <span>Figma</span>
-      </div>
-
     </section>
   );
 }
