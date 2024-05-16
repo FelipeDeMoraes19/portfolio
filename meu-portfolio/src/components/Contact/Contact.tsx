@@ -7,18 +7,16 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 function Contact({ id }: { id: string }) {
   return (
     <footer id={id} className="contact">
-      <h2 style={{ transform: 'translateY(-10px)' }}>Contato</h2>
+      <h2>Contato</h2>
       <div className="contact-links">
-        <a href="mailto:moorraes16@gmail.com" rel="noopener noreferrer" className="contact-item">
-      <FontAwesomeIcon icon={faEnvelope} size="2x" />
-        moorraes16@gmail.com
+        <a href="mailto:moorraes16@gmail.com" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faEnvelope} /> moorraes16@gmail.com
         </a>
-
-        <a href="https://www.linkedin.com/in/felipe-de-moraes-48249026b/" target="_blank" rel="noopener noreferrer" className="contact-item">
-          <FontAwesomeIcon icon={faLinkedin} size="2x" />
+        <a href="https://www.linkedin.com/in/felipe-de-moraes-48249026b/" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faLinkedin} /> 
         </a>
-        <a href="https://github.com/FelipeDeMoraes19" target="_blank" rel="noopener noreferrer" className="contact-item">
-          <FontAwesomeIcon icon={faGithub} size="2x" />
+        <a href="https://github.com/FelipeDeMoraes19" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faGithub} /> 
         </a>
       </div>
     </footer>
