@@ -4,6 +4,10 @@ Este repositório contém os arquivos e recursos para o meu portfólio pessoal. 
 
 ![Meu port](https://github.com/FelipeDeMoraes19/portfolio/assets/133254329/be3f21b3-2618-4ddf-acfa-6df47a214b27)
 
+## Visão Geral
+
+Este portfólio é um site pessoal desenvolvido para apresentar minha trajetória profissional, habilidades técnicas e projetos realizados. Ele foi construído com uma combinação de tecnologias modernas para garantir uma experiência de usuário suave e responsiva.
+
 ## Tecnologias Utilizadas
 
 - **React**: Usado para construir a interface dinâmica do usuário.
@@ -22,8 +26,8 @@ Este repositório contém os arquivos e recursos para o meu portfólio pessoal. 
 Para configurar este projeto localmente, siga as instruções abaixo:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/FelipeDeMoraes19/portfolio.git
+cd portfolio
 npm install
 npm start
 ```
