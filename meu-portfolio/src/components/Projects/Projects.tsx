@@ -9,7 +9,7 @@ const projectsData = [
     name: "Task Automation",
     description: "This project uses PyAutoGUI to automate GUI interactions, simplifying tasks like web form data entry. Features include browser automation, automatic logins, and CSV data processing. Additionally, it offers a tool to capture and display cursor positions.",
     repoUrl: "https://github.com/FelipeDeMoraes19/task-automation",
-    technologies: ["Python"],
+    technologies: ["Python", "JupyterNotebook"],
   },
   {
     name: "Employee Hub",
