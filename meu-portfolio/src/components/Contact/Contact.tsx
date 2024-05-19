@@ -9,8 +9,8 @@ function Contact({ id }: { id: string }) {
     <footer id={id} className="contact">
       <h2>Contato</h2>
       <div className="contact-links">
-        <a href="mailto:moorraes16@gmail.com" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faEnvelope} /> moorraes16@gmail.com
+        <a href="mailto:moorraes16@gmail.com" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faEnvelope} /> 
         </a>
         <a href="https://www.linkedin.com/in/felipe-de-moraes-48249026b/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} /> 
